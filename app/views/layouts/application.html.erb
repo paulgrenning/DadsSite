@@ -6,6 +6,7 @@ me Help Sign in
     <%= render "layouts/stylesheets" %>
   </head>
   <body>
+          <%= render "layouts/header", :locals => { :page_header => @page_header } %>
       <div class="container">
         <div id="body-interior" class="span-24">
           <div id= "main-content">
