@@ -4,6 +4,13 @@ me Help Sign in
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <%= render "layouts/stylesheets" %>
+    <!--[if IE]>
+    <style type=""text/css">
+      div.secondaryPic {
+      margin-top: -192px;
+      }
+    </style>
+    <![endif]-->
     <%= javascript_include_tag "jquery-1.4.4.min" %>
     <%= javascript_include_tag "jquery-ui" %>
     <%= javascript_include_tag "headerNavigation" %>
