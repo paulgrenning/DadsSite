@@ -16,6 +16,11 @@ $(document).ready( function () {
 });
 
 function firstSwap(){
+  if(navigator.appName == 'Microsoft Internet Explorer'){
+    $("#bookThumbImage").css({ "margin-top": "-192px" });
+    $("#blogThumbImage").css({ "margin-top": "-192px" });
+    $("#websiteThumbImage").css({ "margin-top": "-192px" });
+  }
   $("#bookThumbImage").css({ display: "none" });
   $("#blogThumbImage").css({ display: "none" });
   $("#websiteThumbImage").css({ display: "none" });
