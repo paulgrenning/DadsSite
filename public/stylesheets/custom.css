@@ -45,6 +45,7 @@ h2 {
 
 #bookHeader{
   padding-bottom: 10px;
+  margin-bottom: 12px;
   filter: Shadow(Color=#8C1717,   
   Direction=160, 
   Strength=5);
@@ -54,6 +55,7 @@ h2 {
 
 #blogHeader{
   padding-bottom: 10px;
+  margin-bottom: 12px;
   filter: Shadow(Color=#61B329,   
   Direction=160, 
   Strength=5);
@@ -63,6 +65,7 @@ h2 {
 
 #websiteHeader{
   padding-bottom: 10px;
+  margin-bottom: 12px;
   filter: Shadow(Color=#836FFF,   
   Direction=160, 
   Strength=5);
@@ -85,13 +88,11 @@ h3 {
 }
 
 #below-header {
-  clear: both;
   border-bottom: 5px solid #FFF;
   width: 100%;
 }
 
 #below-header2 {
-  clear: both;
   border-bottom: 3px solid #999;
   width: 100%;
 }
