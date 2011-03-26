@@ -1,9 +1,26 @@
 <div id="header"> 
-  <div class="span-23 prepend-1">
-    <h1 id="header-name">
+  <div class="span-13 prepend-1">
+    <h1 id="header-name" class="span-15">
       <%= link_to @page_header[:name], @page_header[:link], :id=>@page_header[:theid]%>
     </h1>
   </div>
+  <ul id="navigation" class="last">
+    <li id="bookLink" class="header-navigation red">
+      <p>
+      <%= link_to "My Book", "http://pragprog.com/titles/jgade/test-driven-development-for-embedded-c" %>
+      </p>
+    </li>
+    <li  id="businessLink" class="header-navigation purple">
+      <p>
+      <%= link_to "My Business", "http://www.renaissancesoftware.net" %>
+      </p>
+    </li>
+    <li id="blogLink" class="header-navigation green">
+      <p>
+      <%= link_to "My Blog", "http://www.renaissancesoftware.net/blog/" %>
+      </p>
+    </li>
+  </ul>
 </div>
 <div id="below-header">
 </div>

@@ -1,19 +1,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 me Help Sign in
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <%= render "layouts/stylesheets" %>
+    <%= javascript_include_tag "jquery-1.4.4.min" %>
+    <%= javascript_include_tag "jquery-ui" %>
+    <%= javascript_include_tag "headerNavigation" %>
   </head>
   <body>
-          <%= render "layouts/header", :locals => { :page_header => @page_header } %>
-      <div class="container">
-        <div id="body-interior" class="span-24">
-          <div id= "main-content">
-            <%= yield %>
-          </div>
-          <div style="clear:both;"></div>
-          </div>
+    <%= render "layouts/header", :locals => { :page_header => @page_header } %>
+    <div id="container">
+      <div id="body-interior">
+        <div id= "main-content">
+          <%= yield %>
+        </div>
+        <div style="clear:both;"></div>
+          <%= render "layouts/footer" %>
       </div>
+    </div>
   </body>
 </html>
