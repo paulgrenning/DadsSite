@@ -3,9 +3,9 @@ var bookIsFaded;
 var businesssIsFaded;
 
 $(document).ready( function () {
-  blogIsFaded = false;
-  bookIsFaded = false;
-  businesssIsFaded = false;
+  blogIsFaded = true;
+  bookIsFaded = true;
+  businesssIsFaded = true;
   firstSwap();
   $(".header-navigation").mouseover(function () {
     $(this).stop().animate({ top: -20 });
@@ -16,6 +16,9 @@ $(document).ready( function () {
 });
 
 function firstSwap(){
+  $("#bookThumbImage").css({ display: "none" });
+  $("#blogThumbImage").css({ display: "none" });
+  $("#websiteThumbImage").css({ display: "none" });
   setTimeout("swapBookImages()", 2000);
   setTimeout("swapBusinessImages()", 4000);
   setTimeout("swapBlogImages()", 6000);
