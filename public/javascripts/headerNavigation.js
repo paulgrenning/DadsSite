@@ -17,9 +17,9 @@ $(document).ready( function () {
 
 function firstSwap(){
   if(navigator.appName == 'Microsoft Internet Explorer'){
-    $("#bookThumbImage").css({ "margin-top": "-192px" });
-    $("#blogThumbImage").css({ "margin-top": "-192px" });
-    $("#websiteThumbImage").css({ "margin-top": "-192px" });
+    $("#bookThumbImage").animate({ top, '-=6'});
+    $("#blogThumbImage").animate({ top, '-=6'});
+    $("#websiteThumbImage").animate({ top, '-=6'});
   }
   $("#bookThumbImage").css({ display: "none" });
   $("#blogThumbImage").css({ display: "none" });
