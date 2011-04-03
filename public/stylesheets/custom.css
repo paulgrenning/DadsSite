@@ -235,6 +235,7 @@ body {
   background-image:url('/images/bottomOfTweet.png');
   height: 19px;
   margin-bottom: 5px; 
+  margin-top: -8px;
 }
 
 .tweet
@@ -260,6 +261,38 @@ body {
 
 #header-name{
   z-index: 1;
+}
+
+#pragProgLogoArea {
+  height: 131px;
+}
+
+#pragProgInfo {
+  height: 101px;
+  float: left;
+  background-color: #fff;
+  border-top: 2px solid #AA5303;
+  border-bottom: 2px solid #AA5303;
+  margin-top: 11px;
+  width: 579px;
+}
+
+#pragProgInfo h2{
+  margin-left: 10px;
+  color: #000;
+  margin-top: 7px;
+}
+
+#pragProgSide {
+  margin-top: 11px;
+}
+
+.bookTitle {
+  font-style: italic;
+}
+
+#pragProgLogoArea img{
+  float: left;
 }
 
 #main-content {
