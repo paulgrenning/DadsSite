@@ -1,13 +1,13 @@
 <div id="header"> 
   <div class="span-13 prepend-1">
-    <h1 id="header-name" class="span-15">
+    <h1 id="<%= @page_header[:headerId].to_s() %>" class="span-15">
       <%= link_to @page_header[:name], @page_header[:link], :id=>@page_header[:theid]%>
     </h1>
   </div>
   <ul id="navigation" class="last">
     <li id="bookLink" class="header-navigation brighter-red">
       <p>
-      <%= link_to "My Book", "http://pragprog.com/titles/jgade/test-driven-development-for-embedded-c" %>
+      <%= link_to "My Book", mybook_path %>
       </p>
     </li>
     <li  id="businessLink" class="header-navigation brighter-purple">
