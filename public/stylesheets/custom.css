@@ -187,6 +187,70 @@ body {
   width: 283px;
 }
 
+#twitter-feed{
+  clear: both;
+}
+
+#twitter-area
+{
+  clear: both;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+#twitter-header {
+  float: left;
+}
+
+#twitter-image{
+  float: left;
+  margin-right: 20px;
+  margin-top: -7px;
+}
+
+#follow-me-on-twitter-image {
+  border-bottom: 3px solid #59B;
+  float: right;
+  margin-top: -35px;
+  width: 182px;
+  height: 64px;
+  padding-bottom: 5px;
+  z-index: 5;
+}
+
+#twitter-title {
+  width: 698px;
+  float: left;
+  border-bottom: 3px solid #59B;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.topOfTweet{
+  background-image:url('/images/topOfTweet.png');
+  height: 25px;
+}
+
+.bottomOfTweet {
+  background-image:url('/images/bottomOfTweet.png');
+  height: 19px;
+  margin-bottom: 5px; 
+}
+
+.tweet
+{
+  border-left: 3px solid #5090B0;
+  border-right: 3px solid #5090B0;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.tweet p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 #header {
   margin: auto;
   height: 90px;
