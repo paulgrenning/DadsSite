@@ -103,14 +103,29 @@ body {
   border-right: 2px solid #8B2023;
 }
 
+.redBorderTopBot {
+  border-top: 2px solid #8B2023;
+  border-bottom: 2px solid #8B2023;
+}
+
 .purpleBorder {
   border-left: 2px solid #532FAF;
   border-right: 2px solid #532FAF;
 }
 
+.purpleBorderTopBot {
+  border-top: 2px solid #532FAF;
+  border-bottom: 2px solid #532FAF;
+}
+
 .greenBorder {
   border-left: 2px solid #417309;
   border-right: 2px solid #417309;
+}
+
+.greenBorderTopBot {
+  border-top: 2px solid #417309;
+  border-bottom: 2px solid #417309;
 }
 
 .innerColumn p {
@@ -263,28 +278,16 @@ body {
   z-index: 1;
 }
 
-#pragProgLogoArea {
-  height: 131px;
-}
-
 #pragProgInfo {
-  height: 101px;
+  height: 60px;
   float: left;
   background-color: #fff;
-  border-top: 2px solid #AA5303;
-  border-bottom: 2px solid #AA5303;
-  margin-top: 11px;
-  width: 579px;
-}
-
-#pragProgInfo h2{
-  margin-left: 10px;
-  color: #000;
-  margin-top: 7px;
+  margin-top: 30px;;
+  width: 585px;
 }
 
 #pragProgSide {
-  margin-top: 11px;
+  margin-top: 30px;
 }
 
 .bookTitle {
@@ -293,6 +296,57 @@ body {
 
 #pragProgLogoArea img{
   float: left;
+}
+
+#pragProgLogoArea {
+  height: 145px;
+}
+
+.infoArea {
+  width: 880px;
+  clear: both;
+}
+
+#bookInfo2 {
+  background-color: #FFF;
+  width: 583px;
+  height: 130px;
+  margin-top: 25px;
+  float: left;
+}
+
+.redSide{
+  margin-top: 25px;
+}
+
+.greenSide{
+  margin-top: 40px;
+}
+
+#bookInfoArea2{
+  height: 200px;
+}
+
+#bookInfoArea2 img{
+  float: left;
+}
+
+#bookInfo {
+  background-color: #FFF;
+  width: 583px;
+  height: 100px;
+  margin-top: 40px;
+  float: right;
+}
+
+.paragraphInfo {
+  margin: 10px 10px 10px 10px;
+  font-size: 13px;
+}
+
+.paragraphInfo a{
+  color: #532FAF;
+  text-decoration: underline;
 }
 
 #main-content {
@@ -304,6 +358,35 @@ body {
 #bookPage {
   font-size: 40px;
   width: 960px;
+}
+
+#bookInfoArea{
+  height: 200px;
+}
+
+.quoteArea{
+  float: right;  
+  width: 283px;
+  height: 186px; 
+}
+
+.quoteArea img{
+  z-index: 1;
+}
+
+.quoteArea p{
+  z-index: 2; 
+  font-size: 20px;
+  width: 165px;
+  height: 120px;
+  margin-top: 50px;
+  margin-left: 60px;
+  position: absolute;
+  color: #444;
+}
+
+#bookInfoArea img{
+  float: right;
 }
 
 #copyright {
