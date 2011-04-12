@@ -34,6 +34,16 @@ h2 {
 /*  border-bottom: 1px solid #aaf6aa;*/
 }
 
+.pageBreak {
+  height: 3px;
+  background-color: #FFF;
+  border-bottom: 2px solid #999;
+}
+
+.pageBreakArea {
+  clear:both;
+  padding-top: 15px;
+}
 
 #bookHeader{
   padding-bottom: 10px;
@@ -232,7 +242,7 @@ body {
 
 #follow-me-on-twitter-image {
   float: right;
-  margin-top: -35px;
+  margin-top: -15px;
   width: 182px;
   height: 64px;
   padding-bottom: 5px;
