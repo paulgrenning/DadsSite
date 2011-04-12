@@ -93,6 +93,8 @@ body {
   float: left;
 }
 
+
+
 .innerColumn {
   width: 253px;
   margin-left: 15px;
@@ -209,8 +211,13 @@ body {
 #twitter-area
 {
   clear: both;
-  padding-top: 30px;
-  margin-bottom: 20px;
+  width: 182px;
+  float: right;
+}
+
+#leftOfTwitter {
+  width: 698;
+  float: left;
 }
 
 #twitter-header {
@@ -224,7 +231,6 @@ body {
 }
 
 #follow-me-on-twitter-image {
-  border-bottom: 3px solid #59B;
   float: right;
   margin-top: -35px;
   width: 182px;
@@ -233,36 +239,30 @@ body {
   z-index: 5;
 }
 
-#twitter-title {
-  width: 698px;
-  float: left;
-  border-bottom: 3px solid #59B;
-  padding-bottom: 10px;
-  margin-bottom: 12px;
-}
-
 .topOfTweet{
   background-image:url('/images/topOfTweet.png');
-  height: 25px;
+  height: 13px;
+  margin-top: -4px;
 }
 
 .bottomOfTweet {
   background-image:url('/images/bottomOfTweet.png');
-  height: 19px;
+  height: 18px;
   margin-bottom: 5px; 
   margin-top: -8px;
 }
 
 .tweet
 {
-  border-left: 3px solid #5090B0;
-  border-right: 3px solid #5090B0;
-  font-size: 16px;
-  font-weight: bold;
+  border-left: 2px solid #5090B0;
+  border-right: 2px solid #5090B0;
   background-color: #fff;
+  font-size: 11px;
 }
 
 .tweet p {
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -305,6 +305,8 @@ body {
 .infoArea {
   width: 880px;
   clear: both;
+  padding-top: 30px;
+  margin-bottom: 20px;
 }
 
 #bookInfo2 {
