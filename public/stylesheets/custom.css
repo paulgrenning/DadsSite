@@ -252,20 +252,24 @@ body {
 .topOfTweet{
   background-image:url('/images/topOfTweet.png');
   height: 13px;
-  margin-top: -4px;
 }
 
 .bottomOfTweet {
+  height: 10px;
   background-image:url('/images/bottomOfTweet.png');
+  margin-top: -5px;
+/*
   height: 18px;
   margin-bottom: 5px; 
   margin-top: -8px;
+  */
 }
 
 .tweet
 {
   border-left: 2px solid #5090B0;
   border-right: 2px solid #5090B0;
+ /* border-bottom: 2px solid #5090B0;*/
   background-color: #fff;
   font-size: 11px;
 }
