@@ -220,9 +220,10 @@ body {
 
 #twitter-area
 {
-  clear: both;
   width: 182px;
-  float: right;
+  position: fixed;
+  top: 120px;
+  left: 1122px;
 }
 
 #leftOfTwitter {
