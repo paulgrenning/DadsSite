@@ -215,20 +215,22 @@ body {
 }
 
 #twitter-feed{
-  clear: both;
+  width: 182px;
 }
 
 #twitter-area
 {
-  width: 182px;
-  position: absolute;
   top: 120px;
-  left: 1122px;
+  float: right;
 }
 
-#leftOfTwitter {
-  width: 698;
-  float: left;
+
+#sidebar {
+  float: right;
+  clear: both;
+  margin: auto;
+  width: 1142px;
+  position: absolute;
 }
 
 #twitter-header {
@@ -242,7 +244,6 @@ body {
 }
 
 #follow-me-on-twitter-image {
-  float: right;
   margin-top: -15px;
   width: 182px;
   height: 64px;
@@ -320,7 +321,6 @@ body {
 .infoArea {
   width: 880px;
   clear: both;
-  padding-top: 30px;
   margin-bottom: 20px;
 }
 
