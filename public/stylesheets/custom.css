@@ -387,8 +387,29 @@ body {
   height: 186px; 
 }
 
+.quoteArea2{
+  float: left;  
+  width: 283px;
+  height: 186px; 
+}
+
+.quoteArea2 img{
+  z-index: 1;
+}
+
 .quoteArea img{
   z-index: 1;
+}
+
+.quoteArea2 p{
+  z-index: 2; 
+  font-size: 20px;
+  width: 165px;
+  height: 120px;
+  margin-top: 50px;
+  margin-left: 60px;
+  position: absolute;
+  color: #444;
 }
 
 .quoteArea p{
