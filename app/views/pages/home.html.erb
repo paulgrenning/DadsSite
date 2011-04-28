@@ -2,7 +2,7 @@
   <h2 id="bookHeader">My Book</h2>
   <div class="imageArea">
     <div>
-      <%= link_to image_tag("bookThumb.png"), mybook_path %>
+      <%= link_to image_tag("bookThumb.png", :class => "primaryPic"), mybook_path %>
     </div>
     <div  id="bookThumbImage" class="iestuff">
       <%= link_to image_tag("bookThumb2.png", :class=>"secondaryPic"), mybook_path %>
@@ -21,7 +21,7 @@
   <h2 id="websiteHeader">My Business</h2>
   <div class="imageArea">
     <div>
-      <%= link_to image_tag("websiteThumb.png"), "http://www.renaissancesoftware.net" %>
+      <%= link_to image_tag("websiteThumb.png", :class => "primaryPic"), "http://www.renaissancesoftware.net" %>
     </div>
     <div id="websiteThumbImage" class="iestuff">
       <%= link_to image_tag("websiteThumb2.png", :class=>"secondaryPic"), "http://www.renaissancesoftware.net" %>
@@ -40,7 +40,7 @@
   <h2 id="blogHeader">My Blog</h2>
   <div class="imageArea">
     <div>
-      <%= link_to image_tag("blogThumb.png"), "http://www.renaissancesoftware.net/blog/" %>
+      <%= link_to image_tag("blogThumb.png", :class => "primaryPic"), "http://www.renaissancesoftware.net/blog/" %>
     </div>
     <div id="blogThumbImage" class="iestuff">
       <%= link_to image_tag("blogThumb2.png", :class=>"secondaryPic"), "http://www.renaissancesoftware.net/blog/" %>

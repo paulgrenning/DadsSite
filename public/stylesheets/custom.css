@@ -194,10 +194,12 @@ body {
   position: relative;
 }
 
+.primaryPic {
+  position: absolute;
+}
 
 .secondaryPic {
   position: absolute;
-  margin-top: -186px;
 }
 
 #navigation {

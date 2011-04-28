@@ -23,16 +23,16 @@ me Help Sign in
     <%= render "layouts/header", :locals => { :page_header => @page_header } %>
     <div id="container">
       <div id="body-interior">
+        <div id="sidebar">
+          <div id="twitter-area">
+            <%= link_to image_tag("twitterBirdAnimated.gif", :id=>"follow-me-on-twitter-image"), "http://twitter.com/jwgrenning" %>
+            <div id="twitter-feed">
+            </div>
+          </div>
+        </div>
         <div id= "main-content">
           <%= yield %>
         </div>
-    <div id="sidebar">
-      <div id="twitter-area">
-        <%= link_to image_tag("twitterBirdAnimated.gif", :id=>"follow-me-on-twitter-image"), "http://twitter.com/jwgrenning" %>
-        <div id="twitter-feed">
-        </div>
-      </div>
-    </div>
         <div style="clear:both;"></div>
           <%= render "layouts/footer" %>
       </div>
