@@ -176,21 +176,20 @@ body {
   background-color: #000A00;
 }
 
+#navigation li {
+ float: left;
+}
+
 .header-navigation {
   border-top: 3px solid #FFF;
   border-left: 1px solid #FFF;
   border-right: 1px solid #FFF;
   margin-left: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
   position: relative;
   float: left;
-}
-
-.header-navigation p {
-  float: left;
-  color: #FFF;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: relative;
+  height: 70px;
 }
 
 .primaryPic {

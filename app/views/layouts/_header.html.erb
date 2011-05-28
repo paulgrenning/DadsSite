@@ -5,25 +5,17 @@
     </h1>
   </div>
   <ul id="navigation" class="last">
-    <li class="header-navigation">
-      <p>
-      <%= link_to "Home", root_path %>
-      </p>
+    <li >
+      <%= link_to "Home", root_path, :class => "header-navigation" %>
     </li>
-    <li id="bookLink" class="header-navigation brighter-red">
-      <p>
-      <%= link_to "My Book", mybook_path %>
-      </p>
+    <li id="bookLink">
+      <%= link_to "My Book", mybook_path, :class => "header-navigation brighter-red" %>
     </li>
-    <li  id="businessLink" class="header-navigation brighter-purple">
-      <p>
-      <%= link_to "My Business", "http://www.renaissancesoftware.net" %>
-      </p>
+    <li  id="businessLink">
+      <%= link_to "My Business", "http://www.renaissancesoftware.net",  :class => "header-navigation brighter-purple" %>
     </li>
-    <li id="blogLink" class="header-navigation brighter-green">
-      <p>
-      <%= link_to "My Blog", "http://www.renaissancesoftware.net/blog/" %>
-      </p>
+    <li id="blogLink">
+      <%= link_to "My Blog", "http://www.renaissancesoftware.net/blog/",  :class => "header-navigation brighter-green" %>
     </li>
   </ul>
 </div>
