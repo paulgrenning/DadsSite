@@ -21,16 +21,16 @@ li {
 
 h1 {
   height: 1.0em;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 0px;
-  font: normal normal normal 4.8em/normal Arial, Times, serif;
+  font: normal normal normal 2.6em/normal Arial, Times, serif;
 }
 
 h2 {
   height: 1em;
   color: #FFF;
   /*color: #2d5824; */
-  font: normal normal normal 2em/normal Arial, Times, serif;
+  font: normal normal normal 1.4em/normal Arial, Times, serif;
 /*  border-bottom: 1px solid #aaf6aa;*/
 }
 
@@ -44,22 +44,10 @@ h2 {
   padding-top: 15px;
 }
 
-#bookHeader{
-  padding-bottom: 10px;
-  margin-bottom: 12px;
-  border-bottom: 3px solid #4C0707;
-}
-
-#blogHeader{
-  padding-bottom: 10px;
-  margin-bottom: 12px;
-  border-bottom: 3px solid #417309;
-}
-
-#websiteHeader{
-  padding-bottom: 10px;
-  margin-bottom: 12px;
-  border-bottom: 3px solid #433F9F;
+.header-spacing {
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  margin-top: 10px;
 }
 
 .innerColumnImage {
@@ -90,13 +78,12 @@ h3 {
 }
 
 body {
-  background-color: #050505;
+  background-color: #000;
 }
 
 #body-interior {
   margin-top: 20px;
   width: 960px;
-  min-height: 525px;
 }
 
 .myColumn{
@@ -106,7 +93,7 @@ body {
 
 .innerColumn {
   width: 203px;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .redBorder {
@@ -178,6 +165,90 @@ body {
   margin-bottom: 0px;
 }
 
+.yellow {
+  background-color: #FFDE00;
+}
+
+.light-orange {
+  background-color: #FFBA00;
+}
+
+.orange {
+  background-color: #FF9000;
+}
+
+.red {
+  background-color: #FF3D00
+}
+
+.header-underline-blue {
+  border-bottom: 2px solid #5090B0;
+}
+
+.blue {
+  background-color: #5090B0;
+}
+
+.blue-border {
+  border-left: 2px solid #5090B0;
+  border-right: 2px solid #5090B0;
+  border-bottom: 2px solid #5090B0;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+}
+
+.blueBorderTopBotLeft {
+  border-top: 2px solid #5090B0;
+  border-bottom: 2px solid #5090B0;
+  border-left: 2px solid #5090B0;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+}
+
+.blueBorderTopBotRight {
+  border-top: 2px solid #5090B0;
+  border-bottom: 2px solid #5090B0;
+  border-right: 2px solid #5090B0;
+  border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+}
+
+.yellow-border {
+  border-left: 2px solid #FFDE00;
+  border-right: 2px solid #FFDE00;
+  border-bottom: 2px solid #FFDE00;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+}
+
+.light-orange-border {
+  border-left: 2px solid #FFBA00;
+  border-right: 2px solid #FFBA00;
+  border-bottom: 2px solid #FFBA00;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+}
+
+.orange-border {
+  border-left: 2px solid #FF9000;
+  border-right: 2px solid #FF9000;
+  border-bottom: 2px solid #FF9000;
+  border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+}
+
 .brighter-red {
   background-color: #4B1013;
 }
@@ -192,18 +263,6 @@ body {
 
 .white {
   background-color: #FFF;
-}
-
-.red {
-  background-color: #0D0000;
-}
-
-.purple {
-  background-color: #030013;
-}
-
-.green {
-  background-color: #000A00;
 }
 
 #navigation li {
@@ -234,7 +293,7 @@ body {
 
 #navigation {
   overflow: hidden;
-  padding-top: 70px;
+  padding-top: 40px;
   float: right;
 }
 
@@ -253,7 +312,6 @@ body {
 
 #twitter-area
 {
-  top: 120px;
   float: right;
 }
 
@@ -312,7 +370,7 @@ body {
 
 #header {
   margin: auto;
-  height: 90px;
+  height: 60px;
   width: 960px;
   overflow: hidden;
 }
@@ -396,11 +454,10 @@ body {
 #main-content {
   float: left;
   margin-top: 15px;
-  min-height: 525px;
+  min-height: 435px;
 }
 
 #bookPage {
-  font-size: 40px;
   width: 960px;
 }
 
@@ -457,7 +514,7 @@ body {
 }
 
 #copyright {
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   color: #fff;

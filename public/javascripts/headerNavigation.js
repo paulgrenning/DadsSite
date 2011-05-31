@@ -8,10 +8,10 @@ $(document).ready( function () {
   businesssIsFaded = true;
   firstSwap();
   $(".header-navigation").mouseover(function () {
-    $(this).stop().animate({ top: -20 });
+    $(this).stop().animate({ top: -5 }, 100);
   });
   $(".header-navigation").mouseout(function () {
-    $(this).stop().animate({ top: 0 });
+    $(this).stop().animate({ top: 0 }, 100);
   });
 });
 
