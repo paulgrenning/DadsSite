@@ -441,6 +441,14 @@ body {
   float: right;
 }
 
+#bookInfoLarge {
+  background-color: #FFF;
+  width: 454px;
+  height: 138px;
+  margin-top: 8px;
+  float: right;
+}
+
 .paragraphInfo {
   margin: 3px 10px 10px 10px;
   font-size: 13px;
