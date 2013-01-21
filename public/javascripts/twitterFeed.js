@@ -1,15 +1,15 @@
 $(document).ready(function() {
-  $.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=jwgrenning&count=30&callback=?",
-  function(data){
-    $.each(data, function(i,item){
-      if(parseInt($("#main-content").css('height')) - 50 > parseInt($("#twitter-area").css('height'))){
-        var html = ""; 
-        html += "<div class=\"topOfTweet\"></div>";
-        html += "<div class=\"tweet\" prepend-1 append-1><p>" + item.text + "</p></div>";  
-        html += "<div class=\"bottomOfTweet\"></div>";
-        $("#twitter-feed").append(html);
-      }
+
+    var _url = 'https://api.twitter.com/1/statuses/user_timeline/jwgrenning.json?callback=?&count=10';
+    $.getJSON(_url,function(data){
+        for(i = 0; i < data.length; ++i) {
+          var tweet = data[i].text;
+          var html = ""; 
+          html += "<div class=\"topOfTweet\"></div>";
+          html += "<div class=\"tweet\" prepend-1 append-1><p>" + tweet + "</p></div>";  
+          html += "<div class=\"bottomOfTweet\"></div>";
+          $("#twitter-feed").append(html);
+        }
     });
-  });
 });
 
